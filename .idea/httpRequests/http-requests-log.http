@@ -1,0 +1,16 @@
+POST http://127.0.0.1:5000/pacientes
+Content-Type: application/json
+Content-Length: 119
+User-Agent: IntelliJ HTTP Client/PyCharm 2025.2.4
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "nome": "João da Silva",
+  "cpf": "987.654.321-00",
+  "telefone": "99999-1234",
+  "endereco": "Rua Central, 200"
+}
+
+###
+

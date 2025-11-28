@@ -1,0 +1,52 @@
+2025-11-09 18:43:15,805 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 18:43:15,805 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-09 18:43:15,806 - INFO -  * Restarting with stat
+2025-11-09 18:43:16,219 - WARNING -  * Debugger is active!
+2025-11-09 18:43:16,222 - INFO -  * Debugger PIN: 109-923-264
+2025-11-09 18:43:55,707 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 18:43:55,707 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-09 18:43:55,708 - INFO -  * Restarting with stat
+2025-11-09 18:43:56,133 - WARNING -  * Debugger is active!
+2025-11-09 18:43:56,135 - INFO -  * Debugger PIN: 109-923-264
+2025-11-09 18:50:10,370 - INFO - Paciente cadastrado: João da Silva
+2025-11-09 18:50:10,370 - INFO - 127.0.0.1 - - [09/Nov/2025 18:50:10] "[35m[1mPOST /pacientes HTTP/1.1[0m" 201 -
+2025-11-09 19:10:28,421 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 19:10:28,421 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-09 19:10:28,422 - INFO -  * Restarting with stat
+2025-11-09 19:10:28,838 - WARNING -  * Debugger is active!
+2025-11-09 19:10:28,841 - INFO -  * Debugger PIN: 109-923-264
+2025-11-09 19:13:05,533 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 19:13:05,533 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-09 19:13:05,534 - INFO -  * Restarting with stat
+2025-11-09 19:13:05,938 - WARNING -  * Debugger is active!
+2025-11-09 19:13:05,940 - INFO -  * Debugger PIN: 109-923-264
+2025-11-09 19:15:58,696 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 19:15:58,696 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-09 19:15:58,696 - INFO -  * Restarting with stat
+2025-11-09 19:15:59,087 - WARNING -  * Debugger is active!
+2025-11-09 19:15:59,089 - INFO -  * Debugger PIN: 109-923-264
+2025-11-09 19:16:09,033 - ERROR - (sqlite3.IntegrityError) UNIQUE constraint failed: paciente.cpf
+[SQL: INSERT INTO paciente (nome, cpf, telefone, endereco) VALUES (?, ?, ?, ?)]
+[parameters: ('João da Silva', '987.654.321-00', '99999-1234', 'Rua Central, 200')]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-11-09 19:16:09,033 - INFO - 127.0.0.1 - - [09/Nov/2025 19:16:09] "[35m[1mPOST /pacientes HTTP/1.1[0m" 500 -
+2025-11-09 19:16:15,838 - INFO - 127.0.0.1 - - [09/Nov/2025 19:16:15] "GET /pacientes HTTP/1.1" 200 -
+2025-11-09 19:18:37,723 - INFO - 127.0.0.1 - - [09/Nov/2025 19:18:37] "GET /pacientes HTTP/1.1" 200 -
+2025-11-09 19:28:52,652 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-11-09 19:28:52,653 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-09 19:28:52,653 - INFO -  * Restarting with stat
+2025-11-09 19:28:53,047 - WARNING -  * Debugger is active!
+2025-11-09 19:28:53,049 - INFO -  * Debugger PIN: 109-923-264
+2025-11-09 19:29:11,073 - INFO - Paciente cadastrado: Carlos Oliveira
+2025-11-09 19:29:11,074 - INFO - 127.0.0.1 - - [09/Nov/2025 19:29:11] "[35m[1mPOST /pacientes HTTP/1.1[0m" 201 -
+2025-11-09 19:29:11,080 - INFO - 127.0.0.1 - - [09/Nov/2025 19:29:11] "GET /pacientes HTTP/1.1" 200 -
+2025-11-09 19:29:11,090 - INFO - Paciente atualizado: João da Silva
+2025-11-09 19:29:11,090 - INFO - 127.0.0.1 - - [09/Nov/2025 19:29:11] "PUT /pacientes/1 HTTP/1.1" 200 -
+2025-11-09 19:29:11,097 - INFO - Paciente excluído: ID 1
+2025-11-09 19:29:11,097 - INFO - 127.0.0.1 - - [09/Nov/2025 19:29:11] "DELETE /pacientes/1 HTTP/1.1" 200 -

@@ -1,0 +1,8 @@
+# Default ignored files
+/../../SGHSS_Backend /.idea/shelf/
+/../../SGHSS_Backend /.idea/workspace.xml
+# Editor-based HTTP Client requests
+/../../SGHSS_Backend /.idea/httpRequests/
+# Datasource local storage ignored files
+/../../SGHSS_Backend /.idea/dataSources/
+/../../SGHSS_Backend /.idea/dataSources.local.xml
